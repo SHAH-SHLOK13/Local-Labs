@@ -58,6 +58,7 @@ now inside the VM:
 18)Verify logical volumes = lvdisplay
 
 19)Format Logical Volumes = mkfs.xfs /dev/shlok_vg/shlok_lv
+
 20)Create a new directory = mkdir /shlokdisk
 
 21)Mount the new file system = mount /dev/shlok_vg/shlok_lv /shlokdisk
