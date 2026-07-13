@@ -45,7 +45,9 @@ Example task block:
 ```bash
 yum -y install ansible
 # or
-dnf install ansible
+dnf install ansible -y
+# or
+dnf install ansible-core -y
 
 ansible --version
 ```
